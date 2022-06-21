@@ -41,11 +41,6 @@ export default function ReportTable({ reports }){
                     </tbody>
                     <tfoot>
                         <th>Totals:</th>
-                            {calculateTotals().map(item => {
-                                return (
-                                <td key={item}>item</td>
-                            )
-                        })}
                     </tfoot>
                 </table>
             </div>
