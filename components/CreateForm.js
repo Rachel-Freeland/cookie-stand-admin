@@ -1,6 +1,7 @@
-export default function CookieStandForm(props) {
+export default function CreateForm(props) {
+
     return (
-        <form onSubmit={props.onSubmit} className={'grid grid-cols-4 grid-flow-rows gap-3 px-5 py-3 my-2 w-1/2 bg-emerald-300'}>
+        <form onSubmit={props.handleSubmit} className={'grid grid-cols-4 grid-flow-rows gap-3 px-5 py-3 my-2 w-1/2 bg-emerald-300'}>
             <div className={'col-span-5'}>
                 <h1 className={'text-xl flex justify-center py-2 px-3'}>Create Cookie Stand</h1>
             </div>
